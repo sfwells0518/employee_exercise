@@ -49,7 +49,7 @@ employee2 = Employee.new({ first_name: "Danilo", last_name: "Campos", active: fa
 
 class Manager < Employee
   def send_report
-    p "sending report...."
+    p "#{first_name} needs me to send the report to him!"
     # some logic here i'm not going to write
     p "just sent all the reports"
   end
