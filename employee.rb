@@ -61,7 +61,7 @@ p employee2.first_name
 
 employee3 = Employee.new("Majora", "Carter", true, 80_000)
 employee3.last_name
-p employee3.last_name
+p employee3.last_name 
 
 
 
