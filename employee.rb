@@ -38,19 +38,18 @@ class Employee
     @salary = input_salary
   end
 
-  def  print_info
+  def print_info
     p "#{@first_name} #{@last_name} makes $#{@salary} per year."
   end
 
   def first_name
-   "Majora"
+    "Majora"
   end
 
   def last_name
-   "Carter"
+    "Carter"
   end
-
-end 
+end
 
 # employee1 = Employee.new("Majora", "Carter", true, 80_000)
 # employee1.print_info
@@ -61,8 +60,4 @@ p employee2.first_name
 
 employee3 = Employee.new("Majora", "Carter", true, 80_000)
 employee3.last_name
-p employee3.last_name 
-
-
-
-
+p employee3.last_name
